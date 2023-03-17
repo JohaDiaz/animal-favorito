@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto 0;
+    padding: 0;
+}
+
+header{
+    height: 350px;
+    background: url("/images/iguana-verde-bebe.jpg")center center / cover;
+    filter:brightness(0.8);
+    filter: grayscale(1);
+    
+
+}
+.text-main{
+    color: #f09716;
+}
+
+
+/* MENU */
+
+#menu{
+    margin-top: -1px;
+    background-color: #2f6c6d;
+    min-height: 30px;
+
+}
+ 
+#menu ul{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-content: center;
+    list-style:none;
+    margin-right: 15px;
+    margin-top: 0px;
+    padding: 10px 0;
+    
+}
+#menu li:not(:last-of-type){
+    margin-right: 1em;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: #b5c8cb;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+footer.pie{
+    background-color: #251d1b;
+    padding: 1em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.estilo-main{
+    margin-top: 0;
+    background-color: #181616;
+    min-height: 1200px;
+}
+.anchoMaximo{
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.flex33{
+    
+    flex-basis: 32%;
+}
+.flex66{
+    
+    flex-basis:66%
+}
+
+.imagen-main{
+
+    margin-top: 250px;
+    width: 150%;
+}
