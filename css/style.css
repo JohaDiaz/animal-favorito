@@ -24,6 +24,7 @@ header{
 
 #menu{
     margin-top: -1px;
+    text-transform: uppercase;
     background-color: #2f6c6d;
     min-height: 30px;
 
@@ -38,6 +39,7 @@ header{
     margin-right: 15px;
     margin-top: 0px;
     padding: 10px 0;
+    margin-bottom: 0px;
     
 }
 #menu li:not(:last-of-type){
