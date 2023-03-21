@@ -2,16 +2,17 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: auto 0;
     padding: 0;
 }
 
 header{
-    height: 350px;
-    background: url("/images/iguana-verde-bebe.jpg")center center / cover;
-    filter:brightness(0.8);
+    height: 250px;
+    background:linear-gradient(to bottom, rgb(0 0 0 / .8),rgb(0 0 0 / .5)),url("/images/iguana-verde-bebe.jpg")center center / cover;
+    filter:brightness(0.1);
     filter: grayscale(1);
+    
     
 
 }
@@ -23,48 +24,71 @@ header{
 /* MENU */
 
 #menu{
-    margin-top: -1px;
+    
+  /*   margin-top: -1px; */
     text-transform: uppercase;
-    background-color: #2f6c6d;
-    min-height: 30px;
+    background-color: rgb(33, 33, 33);
+    min-height: 50px;
 
+
+}
+nav{
+    position: relative;
+    z-index: 1;
 }
  
 #menu ul{
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-content: center;
     list-style:none;
-    margin-right: 15px;
+   
     margin-top: 0px;
     padding: 10px 0;
     margin-bottom: 0px;
     
 }
 #menu li:not(:last-of-type){
-    margin-right: 1em;
+    
+    margin-right: 3em;
 }
+
+#menu li{
+    margin-top: 5px;
+}
+
 
 #menu li a{
     text-decoration: none;
-    color: #b5c8cb;
+    color: #afafaf;
     font-weight: 800;
-    font-size: 15px;
+    font-size: 20px;
+}
+#menu li a:hover{
+    color:#f09716;
+    cursor: pointer;
 }
 
+
 footer.pie{
-    background-color: #251d1b;
+    background-color: rgb(33, 33, 33);
     padding: 1em;
     text-align: center;
     color: #ffffff;
+    height: 130px;
 }
 
-.estilo-main{
-    margin-top: 0;
-    background-color: #181616;
-    min-height: 1200px;
+footer a{
+    text-decoration: none;
+    color: #73c5b8;
 }
+footer a:hover{
+    
+    color: #f09716;
+}
+
+
 .anchoMaximo{
     max-width:1200px;
     margin: 0 auto;
@@ -72,7 +96,15 @@ footer.pie{
 
 .flex{
     display: flex;
+   
+}
+
+.flex-row{
     flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
 }
 .flex33{
     
@@ -81,6 +113,16 @@ footer.pie{
 .flex66{
     
     flex-basis:66%
+}
+
+.flex50{
+    flex-basis: 50%;
+}
+
+.img-width{
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .imagen-main{
@@ -95,18 +137,70 @@ footer.pie{
 
 .wrap{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),
-    url("/images/iguana-colorida.jpg");
-    background-size: cover;
+    background: linear-gradient(to bottom, rgb(0 0 0 / .4),rgb(0 0 0 / .8)),
+    url("/images/iguana-colorida.jpg") bottom fixed;
+    background-size: 150%;
     background-position: center;
+    
+    }
+    .wrap p{
+        color: aliceblue;
+        text-shadow: #272727 1px 1px;
+        font-size: 1.2em;
+        
     }
 
     .wrap-texto{
         color: #fff;
-        text-align: center;
-        width: 50%;
+        
+        
+        }
+
+        .cuadro-texto{
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .wrap-texto h1{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 4em;
+            letter-spacing: 15px;
+            margin-bottom: 0;
+            color: #5cd0ee;
+            text-shadow: #000000 1px 1px;
+            
+        }
+
+        .turqueza{
+            color: #5cd0ee;;
+        }
+
+        .wrap-texto h2{
+            font-size: 2em;
+            color: #f09716;
+            text-shadow: #272727 2px 2px;
+        }
+
+        .pmargin{
+            margin-right: 15px;
+        }
+
+        .text-center{
+            text-align: center;
+        }
+
+        .margin-bottom-text{
+            margin-bottom: 200px;
+        }
+        .margin-top{
+
+            margin-top: 100px;
+            
         }
