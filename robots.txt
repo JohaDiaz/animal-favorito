@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: url de este nuevo sitemap

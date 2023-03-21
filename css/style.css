@@ -10,6 +10,7 @@ body{
 header{
     height: 250px;
     background:linear-gradient(to bottom, rgb(0 0 0 / .8),rgb(0 0 0 / .5)),url("../images/iguana-verde-bebe.jpg")center center / cover;
+
     filter:brightness(0.1);
     filter: grayscale(1);
     
@@ -203,9 +204,4 @@ footer a:hover{
 
             margin-top: 100px;
             
-        }
-
-        .imagen-iguana{
-            background: url("../images/iguana-verde-bebe-trepando.jpg") center 35%/ cover;   
-            height: 150px;
         }
