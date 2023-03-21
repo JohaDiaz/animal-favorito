@@ -9,7 +9,7 @@ body{
 
 header{
     height: 250px;
-    background:linear-gradient(to bottom, rgb(0 0 0 / .8),rgb(0 0 0 / .5)),url("/images/iguana-verde-bebe.jpg")center center / cover;
+    background:linear-gradient(to bottom, rgb(0 0 0 / .8),rgb(0 0 0 / .5)),url("../images/iguana-verde-bebe.jpg")center center / cover;
     filter:brightness(0.1);
     filter: grayscale(1);
     
@@ -142,7 +142,7 @@ footer a:hover{
     align-items: center;
     justify-content: center;
     background: linear-gradient(to bottom, rgb(0 0 0 / .4),rgb(0 0 0 / .8)),
-    url("/images/iguana-colorida.jpg") bottom fixed;
+    url("../images/iguana-colorida.jpg") bottom fixed;
     background-size: 150%;
     background-position: center;
     
@@ -203,4 +203,8 @@ footer a:hover{
 
             margin-top: 100px;
             
+        }
+
+        strong{
+            color: #5cd0ee;
         }
