@@ -205,3 +205,12 @@ footer a:hover{
             margin-top: 100px;
             
         }
+
+        .imagen-iguana{
+            background: url("../images/iguana-ojos-marrones.jpg") center center / cover;
+            height: 160px;
+        }
+
+        strong{
+            color: #5cd0ee;
+        }
