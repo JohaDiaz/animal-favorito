@@ -1,0 +1,60 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.max-width{
+    max-width: 1200px;
+}
+
+.boton{
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.boton:hover{
+    background:  #f09716 ;
+    color:#6e6e6e;
+    
+}
+
+.titulo{
+    grid-column: 1/3;
+    text-align: center;
+    color: #73c5b8;
+    font-size:3em;
+}
+
+.tamanoDiv{
+    width: 350px;
+    height: 450px;
+}
+
+.imagen1{
+    background: url("../images/iguana-comiendo.jpg")center/cover;
+
+}
+
+.imagen2{
+    background: url("../images/ataque-iguana.jpg")center/cover;
+}
+
+.columna h2{
+    margin-top: 20px;
+    color: #73c5b8;
+}
+
+.columna{
+    text-align: center;
+}
+
+
