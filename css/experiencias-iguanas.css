@@ -41,7 +41,12 @@
 
 .imagen1{
     background: url("../images/iguana-comiendo.jpg")center/cover;
+    filter: brightness(-1);
 
+}
+
+.imagen1:hover{
+    filter: 1;
 }
 
 .imagen2{

@@ -1,0 +1,22 @@
+
+.iguana-comiendo{
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #73c5b8;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.wrap.iguana-comiendo p{
+    color: white;
+}
+
+.imagen1, .imagen2{
+    margin: 0 auto;
+}
+
+
+
+
