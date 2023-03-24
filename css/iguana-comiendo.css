@@ -1,0 +1,32 @@
+
+.iguana-comiendo{
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #73c5b8;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.wrap.iguana-comiendo p{
+    color: white;
+   
+}
+
+.wrap p {
+    color: aliceblue;
+    text-shadow: #272727 1px 1px;
+    font-size: 1.2em;
+    background: rgba(0, 0, 0, 0.387);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.imagen1, .imagen2{
+    margin: 0 auto;
+}
+
+
+
+
