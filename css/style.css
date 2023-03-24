@@ -314,3 +314,11 @@ form{
 .aceptar-clausulas a:hover{
     color: #5cd0ee;
 }
+
+.añadir-imagenes{
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+label {
+    font-size: 1.2em;}
