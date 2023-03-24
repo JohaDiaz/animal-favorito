@@ -11,6 +11,16 @@
 
 .wrap.iguana-comiendo p{
     color: white;
+   
+}
+
+.wrap p {
+    color: aliceblue;
+    text-shadow: #272727 1px 1px;
+    font-size: 1.2em;
+    background: rgba(0, 0, 0, 0.387);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .imagen1, .imagen2{
