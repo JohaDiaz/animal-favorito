@@ -9,9 +9,8 @@ body{
 
 header{
     height: 250px;
-    background:linear-gradient(to bottom, rgb(0 0 0 / .8),rgb(0 0 0 / .5)),url("../images/iguana-verde-bebe.jpg")center center / cover;
-
-    filter:brightness(0.1);
+    background:linear-gradient(to bottom, rgb(0 0 0 / .7),rgb(0 0 0 / .3)),url("../images/iguana-verde-bebe.jpg")center center / cover;
+    filter:brightness(0.3);
     filter: grayscale(1);
     
     
@@ -214,3 +213,109 @@ footer a:hover{
         strong{
             color: #5cd0ee;
         }
+        .imagen-iguana{
+            height: 160px;
+            background: url("../images/iguana-ojos-marrones.jpg") center center /cover;
+        }
+
+
+        /* ESTILO FORMULARIO */
+
+
+      /* Fomulario */
+form{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.formulario div{
+    padding: 10px;
+  }
+ 
+  .nombre{
+    background: #fff;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 50%);
+  }
+ 
+  .botonEnviar{
+    background: #f09716;
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+    border: none;
+    padding: 5px 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+
+  .botonEnviar:hover{
+    background: #5cd0ee;
+    color: white;
+    
+  }
+ 
+ .formulario a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background: none;
+ }
+
+ 
+ .formulario a:hover{
+   color: rgb(95, 95, 95);
+   text-decoration: none;
+}
+ 
+
+
+ .filaFlex{
+    display: flex;
+    justify-content: space-around;
+   
+ }
+
+ .ancho40{
+    flex-basis: 40%;
+ }
+
+ .alineacion{
+    text-align: center;
+    max-width: 1200px;
+    margin: 50px auto 10px auto;
+ }
+
+ .alineacion p{
+   margin-top: 20px;
+ }
+
+ .alineacion h2{
+    font-size: 2em;
+    color: #f09716;
+    text-shadow: #272727 2px 2px;
+ }
+ textarea{
+    background: #fff;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.2em;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 50%);
+ }
+
+.aceptar-clausulas a{
+    color: #f09716;
+}
+
+.aceptar-clausulas a:hover{
+    color: #5cd0ee;
+}
