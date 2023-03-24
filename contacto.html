@@ -38,7 +38,7 @@
     </nav>
 
     <main>
-  
+       
       <div class="wrap  flex-column">
         <div class="alineacion flex50">
             <h2>Suscribete a nuestro boletin y<br> comparte tu afición por los animales</h2>
@@ -48,32 +48,34 @@
  
          <div class="filaFlex ancho40">
             <form action="ProcesarForm.PHP"  method="post" enctype="multipart/form-data" name="peticion-datos" class="formulario">
+
+              <p><small>Los campos con * son obligatorios</small></p>
      
                  <!-- Nombre -->
                  <div>
-                     <input class="nombre" type="text" name="nombre-usuario" id="nombre-user" placeholder="Nombre" required>
+                     *<input class="nombre" type="text" name="nombre-usuario" id="nombre-user" placeholder="Nombre" required>
                  </div>
          
                  <!-- Textarea -->
  
                  <div class="campoFormulario">
  
-                     <textarea name="consulta" id="consulta-user" cols="30" rows="10" placeholder="Comparta su información" required></textarea>
+                     *<textarea name="consulta" id="consulta-user" cols="30" rows="10" placeholder="Comparta su información" required></textarea>
  
                  </div>
 
                  <div class="campoFormulario">
 
-                  <label for="archivo-user">Manda tus imagenes:</label>
+                  <label for="archivo-user">* Manda tus imagenes:</label>
                   <br>
-                  <input class="añadir-imagenes" type="file" name="archivo-usuario" id="archivo.user" multiple accept=".jpg, .png">
+                  <input class="añadir-imagenes" type="file" name="archivo-usuario" id="archivo.user" multiple accept=".jpg, .png" required>
       
                 </div>
                          
                  <!-- Clausulas de invio -->
                  <div class="aceptar-clausulas">
                      <input type="checkbox" name="clausula" id="aceptar-clausulas" required>
-                     <label for="aceptar-clausulas" required>Acepto condiciones y termino de usos. <a href="#">Leer condiciones</a></label>
+                     <label for="aceptar-clausulas" required>* Acepto condiciones y termino de usos. <a href="#">Leer condiciones</a></label>
                  </div>
  
                  <!-- boton enviar -->
